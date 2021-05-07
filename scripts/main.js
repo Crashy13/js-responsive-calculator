@@ -4,12 +4,6 @@ const $equals = document.querySelector('.equal-sign')
 
 $numbers.forEach(function (pushNumber) {
   pushNumber.addEventListener('click', function(){
-    alert('')
+    alert(this.innerHTML);
   })
 });
-
-
-
-  // .addEventListener('click', function(pushNumber) {
-  //     alert()
-  // })
